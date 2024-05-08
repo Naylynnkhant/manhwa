@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Mini-Project</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" /> <!--lineicons free ewb link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-2">
+
+                <!-- Logo & Web -->
+                <h1 class="h5 text-center logo-web">
+                    <span class="d-none d-lg-inline ms-2">Burmese Otaku</span>
+                    <i class="lni lni-cool"></i>
+                </h1>
+                
+                
+
+                <!-- Feature Lists-->
+                <div class="list-group text-center text-lg-start">
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="lni lni-user me-3"></i>                               
+                                 <span class="d-none d-lg-inline">Member</span>
+                                <span class="d-none d-lg-inline badge rounded-pill float-end">VIP</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="lni lni-bookmark me-3"></i>
+                                <span class="d-none d-lg-inline">My Bookmarks</span>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">
+                              <i class="lni lni-home me-3"></i>                       
+                             <span class="d-none d-lg-inline">Home</span>
+                            </a>
+                        </li>
+                
+                </div>
+
+                
+
+                <!-- Profile -->
+                <div class="list-group mt-4 text-center text-lg-start">
+
+                    <!-- Sub Header -->
+                    <span class="list-group-item">
+                        <small>PROFILE</small>
+                    </span>
+
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="lni lni-users me-3"></i>
+                        <span class="d-none d-lg-inline">About us</span>
+                    </a>
+                    <a href="potofolio.html" class="list-group-item list-group-item-action">
+                        <i class="lni lni-enter me-3"></i>
+                        <span class="d-none d-lg-inline">Contact us</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="lni lni-wallet me-3"></i>
+                        <span class="d-none d-lg-inline">My Wallet</span>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <i class="lni lni-cog me-3"></i>
+                        <span class="d-none d-lg-inline">Setting</span>
+                    </a>
+                </div>
+                
+            </nav>
+             <!-- Main Content -->
+             <main class="col-10">
+                <!-- NavBar & Profile -->
+                <nav class="navbar navbar-expand-lg">
+                    
+                    <!-- Searchbar -->
+                    <div class="search-bar">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search..." >
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                          </form>
+                    </div>
+
+                    
+
+               <!-- Divider -->
+                    <div class="flex-fill"></div>
+       
+                    <!-- Profile -->
+                    <div class="author-profile">
+                        <img src="pf.jpg" class="rounded-circle author-img me-3" alt="My Profile" style="height: 49px; width: 49px;">
+                        <div class="profile-container">
+                            <div class="author-name">Coal</div>
+                            <div class="author-id">Admin</div>
+                        </div>
+                    </div>
+
+                    <!-- Noti Icon -->
+                    <button class="icon-button">
+                        <i class="lni lni-alarm"></i>
+                    </button>
+                </nav>
+
+
+     <!-- Collections & Creators -->
+     <div class="row">
+        <div class="col-8 collection">
+            
+            <!-- Sort & Filter -->
+            <div class="navbar navbar-expand-lg">
+                <!-- Title -->
+                <h2 class="title">Recently Read</h2>
+
+                <div class="flex-fill"></div>
+
+                <!-- Sort -->
+                <ul class="navbar-nav">
+                    <div class="nav-item">
+                        <button class="btn btn-sort me-3">Last 7 days <i class="lni lni-chevron-down ms-2"></i></button>
+                        
+                    </div>
+                    <div class="nav-item">
+                        <button class="btn btn-sort">
+                            <div class="btn-flex">
+                                All times
+                                <i class="lni lni-chevron-down ms-2"></i>
+                            </div>
+                        </button>
+                        
+                    </div>         
+                </ul>
+            </div>
+
+             <!-- Cards -->
+                            <div class="row row-card-padding flex-column flex-lg-row">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="po1.jpg" class="card-img-top" alt="Picasso">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Blossoming Blade</h5>
+                                            <div class="card-text">
+                                                <text class="state">Ongoing </text>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="po2.jpg" class="card-img-top" alt="Afro">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lookism</h5>
+                                            <div class="card-text">
+                                                <text class="state">Ongoing</text>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="po3.jpg" class="card-img-top" alt="Chito">
+                                        <div class="card-body">
+                                            <h5 class="card-title">How to Fight</h5>
+                                            <div class="card-text">
+                                                <text class="state">Completed</text>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+            <!-- Collection Table -->
+            <div class="col-4">
+                <div class="row row-highligh-padding">
+                    <table class="table-container">
+                        <tr class="table-header">
+                            <th id="header-collection">Read List</th>
+                            <th id="header-volume">Chapters</th>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="collection-container ms-3">
+                                <span class="title-collection">WindBreaker</span>
+                            </td>
+                            <td>405</td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="ms-3">
+                                <span class="title-collection">Windbreaker</span>
+                            </td>
+                            <td>404</td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="ms-3">
+                                <span class="title-collection">Lookism</span>
+                            </td>
+                            <td>499</td>
+                        </tr>
+                        <tr class="table-data">
+                            <td class="ms-3">
+                                <span class="title-collection">Lookism</span>
+                            </td>
+                            <td>498</td>
+                        </tr>
+
+                        
+                    </table>
+           
+        </div>
+                </div>
+            </div>
+
+            
+                   
+        </body>
+        </html>
